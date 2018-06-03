@@ -2,8 +2,8 @@ img_orig
 txt_old
 preprocessed
 rotated
-img/*
-txt/*
+#img/*
+#txt/*
 .idea
 *.pyc
 stats.csv
