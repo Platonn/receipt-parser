@@ -103,7 +103,7 @@ def run_tesseract(input_file, output_file):
         Runs tesseract on image and saves result
     """
 
-    cmd = "tesseract -l deu "
+    cmd = "tesseract -l pol "
     cmd += "'" + input_file + "' '" + output_file + "'"
     print("Running", cmd)
     os.system(cmd)
